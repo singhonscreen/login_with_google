@@ -1,38 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.google_btn{
+  background-color: rgb(8, 174, 230) !important;
+  /* padding: 2px 20px !important; */
+  margin-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dashboard{
+  background-color: rgb(65, 59, 59);
+  display: inline-block;
+  height: 80vh;
+  width: 10rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dashboard .nav{
+font-size: 20px;
+text-decoration: none;
+font-weight: 500;
+font-style: none;
+color: white;
+margin: 5px;
+}
+.dash_container{
+  margin-top: 20px;
+}
+.mr{
+  padding:8px 4px ;
+  
+}
+.flex_container{
+  display: inline-flex;
+}
+.header{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  height: 50px;
+  width: 85vw;
+
+}
+
+.fa-user-circle{
+  font-size: 25px;
+}
+.para{
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.btn2{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 15px;
+  background-color: rgb(65, 59, 59);
+  border: none;
+  padding: 10px 8px;
+  cursor: pointer;
 }
