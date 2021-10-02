@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import GoogleLogin from 'react-google-login';
+import  {ClientId}  from './Client_Id';
 import history from './history'
 
 function Home() {
@@ -44,7 +45,7 @@ const HandleChange = (key, e)=>{
     </label>
     </form>
     <GoogleLogin className="google_btn"
-    clientId = {process.env.clientId}
+    clientId = {ClientId}
     buttonText="Login with Google"
     onSuccess={successResponseGoogle}
     onFailure={failiureResponseGoogle}
